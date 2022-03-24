@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
 //        adapter = new DanhBaAdapter(MainActivity.this, R.layout.item,listSDT);
 //        grvDanhBa.setAdapter(adapter);
         int x = 12;
+        int z = 1523;
+
         adapter = new ArrayAdapter<DanhBa>(this, android.R.layout.simple_list_item_1,listSDT);
         grvDanhBa.setAdapter(adapter);
     }
