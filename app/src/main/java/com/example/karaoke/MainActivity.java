@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     private void addControls() {
 //        adapter = new DanhBaAdapter(MainActivity.this, R.layout.item,listSDT);
 //        grvDanhBa.setAdapter(adapter);
+        int x = 12;
         adapter = new ArrayAdapter<DanhBa>(this, android.R.layout.simple_list_item_1,listSDT);
         grvDanhBa.setAdapter(adapter);
     }
